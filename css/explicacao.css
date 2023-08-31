@@ -1,0 +1,60 @@
+.explicacao {
+  max-width: 600px;
+  font-family: "Poppins" sans-serif;
+  padding: 50px;
+  margin: 0 auto;
+  color: white;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.explicacao-itens {
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+  position: relative;
+}
+
+.rosa::before {
+  display: block;
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: -100px;
+  align-items: center;
+  background: linear-gradient(150deg, #f08080, #c71585, #ffb6c1);
+}
+
+.verde::before {
+  display: block;
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 27px;
+  background: linear-gradient(#adff2f, #fafad2);
+}
+
+.azul::before {
+  display: block;
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 183px;
+  background: linear-gradient(#4682b4, #b0c4de);
+}
+
+.verde-claro::before {
+  display: block;
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 330px;
+  background: linear-gradient(#90ee90, #3cb371, #98fb98);
+}

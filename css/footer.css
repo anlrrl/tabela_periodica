@@ -1,0 +1,31 @@
+.explicacao {
+  max-width: 300px;
+  font-family: "Poppins" sans-serif;
+  padding: 50px;
+  margin: 0 auto;
+  color: white;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-itens {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.spotify:hover {
+  transform: scale(1.12);
+}
+
+.github:hover {
+  transform: scale(1.12);
+}
+
+.linkedin:hover {
+  transform: scale(1.12);
+}

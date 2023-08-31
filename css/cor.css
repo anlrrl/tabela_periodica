@@ -1,0 +1,55 @@
+.e-1 {
+  border: 3px solid;
+  border-image: linear-gradient(#f08080, #c71585, #ffb6c1) 1;
+  color: #c71585;
+}
+
+.e-1:hover {
+  color: #000;
+  background: linear-gradient(150deg, #f08080, #c71585, #ffb6c1);
+  transform: scale(1.12);
+  z-index: 10;
+  border: none;
+}
+
+.e-2 {
+  border: 3px solid;
+  border-image: linear-gradient(#90ee90, #3cb371, #98fb98) 1;
+  color: #3cb371;
+}
+
+.e-2:hover {
+  color: #fff;
+  background: #3cb371;
+  transform: scale(1.12);
+  z-index: 10;
+  border: none;
+}
+
+.e-3 {
+  border: 3px solid;
+  border-image: linear-gradient(#4682b4, #b0c4de) 1;
+  color: #4682b4;
+}
+
+.e-3:hover {
+  color: #000;
+  background: #b0c4de;
+  transform: scale(1.12);
+  z-index: 10;
+  border: none;
+}
+
+.e-4 {
+  border: 3px solid;
+  border-image: linear-gradient(#adff2f, #fafad2) 1;
+  color: #adff2f;
+}
+
+.e-4:hover {
+  color: #000;
+  background: #9acd32;
+  transform: scale(1.12);
+  z-index: 10;
+  border: none;
+}
